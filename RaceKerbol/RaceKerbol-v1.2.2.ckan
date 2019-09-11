@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.14",
+    "comment": "Contains both GPL and CC-BY-NC-SA sections",
+    "identifier": "RaceKerbol",
+    "name": "Race Kerbol",
+    "abstract": "Race Kerbol (the sun) in a series of scenarios from start to finish while trying to keep as close to the ground as possible to get a higher score! Your craft is solar powered, so make sure to keep your panels exposed to the sun as much as possible.",
+    "author": "Lyneira",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/118025-104-race-kerbol-122-island-hop/",
+        "repository": "https://github.com/Lyneira/RaceKerbol"
+    },
+    "version": "v1.2.2",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalFoundries"
+        }
+    ],
+    "install": [
+        {
+            "file": "saves/scenarios",
+            "install_to": "Scenarios"
+        },
+        {
+            "file": "GameData/RaceKerbol",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Lyneira/RaceKerbol/releases/download/v1.2.2/RaceKerbol-1.2.2.zip",
+    "download_size": 132845,
+    "download_hash": {
+        "sha1": "2F367A14B1793CC27DB3977FA6106CF6983D5F16",
+        "sha256": "8DE7E154289A77B9D3BA74A4AADB11C12DEE19D082B546B126D2D64C606B6D94"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
